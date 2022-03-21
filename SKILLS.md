@@ -43,7 +43,7 @@
 | 🟩 Functional programming      | 🟦 Async method       | 🟩 Linked list       |                          |
 | 🟩 Prototype-based programming | 🟩 Getters, Setters   | 🟩 Doubly list       |                          |
 | 🟩 Object-oriented programming | 🟩 Public fields      | 🟦 Unrolled list     |                          |
-| ⬜ Object-based programming    | 🟩 Private fields     | 🟦 Circular list     |                          |
+| ⬜ Object-based programming    | 🟩 Private fields     | 🟩 Circular list     |                          |
 | 🟦 Generic programming         | 🟩 Field declarations | 🟦 Trees             |                          |
 | 🟦 Concurrent computing        | 🟩 Inheritance        | 🟩 Graphs            |                          |
 | 🟩 Asyncronous programming     | 🟩 Parent class       | 🟦 Functor           |                          |
