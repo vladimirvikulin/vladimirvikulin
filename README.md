@@ -11,5 +11,4 @@
 <code>💬 telegram: [@vladlm1r](https://telegram.me/your-nikname)</code>
 <code>📫 [v5o4v7a9@gmail.com](mailto:your-email)</code>
 
-![Top Lang](https://github-readme-stats.vercel.app/api/top-langs/?username=vladimirvikulin&theme=chartreuse-dark&layout=compact)
 
