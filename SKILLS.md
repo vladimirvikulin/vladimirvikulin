@@ -36,7 +36,7 @@
 
 | Theory                         | OOP basics            | Arstractions         | Patterns                 |
 |--------------------------------|-----------------------|----------------------|--------------------------|
-| 🟩 Procedural programming      | 🟩 constructor        | ⬜ struct, record    | 🟩 Singleton             |
+| 🟩 Procedural programming      | 🟩 constructor        | 🟩 struct, record    | 🟩 Singleton             |
 | 🟩 Imperative programming      | 🟩 new                | 🟩 Mutable state     | ⬜ Revealing Constructor |
 | 🟩 Structured programming      | 🟩 Static method      | 🟩 Immutable state   |                          |
 | 🟩 Non-structured programming  | 🟩 Method             | 🟩 Enum              |                          |
@@ -44,7 +44,7 @@
 | 🟩 Prototype-based programming | 🟩 Getters, Setters   | 🟩 Doubly list       |                          |
 | 🟩 Object-oriented programming | 🟩 Public fields      | 🟩 Unrolled list     |                          |
 | ⬜ Object-based programming    | 🟩 Private fields     | 🟩 Circular list     |                          |
-| 🟦 Generic programming         | 🟩 Field declarations | 🟦 Trees             |                          |
+| 🟩 Generic programming         | 🟩 Field declarations | 🟦 Trees             |                          |
 | 🟦 Concurrent computing        | 🟩 Inheritance        | 🟩 Graphs            |                          |
 | 🟩 Asyncronous programming     | 🟩 Parent class       | 🟩 Functor           |                          |
 | 🟦 Parallel programming        | 🟩 Polymorphism       | 🟩 Functional object |                          |
