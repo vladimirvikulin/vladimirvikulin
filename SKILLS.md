@@ -44,7 +44,7 @@
 | 🟩 Prototype-based programming | 🟩 Getters, Setters   | 🟩 Doubly list       |                          |
 | 🟩 Object-oriented programming | 🟩 Public fields      | 🟩 Unrolled list     |                          |
 | ⬜ Object-based programming    | 🟩 Private fields     | 🟩 Circular list     |                          |
-| 🟩 Generic programming         | 🟩 Field declarations | 🟦 Trees             |                          |
+| 🟩 Generic programming         | 🟩 Field declarations | 🟩 Trees             |                          |
 | 🟦 Concurrent computing        | 🟩 Inheritance        | 🟩 Graphs            |                          |
 | 🟩 Asyncronous programming     | 🟩 Parent class       | 🟩 Functor           |                          |
 | 🟦 Parallel programming        | 🟩 Polymorphism       | 🟩 Functional object |                          |
@@ -73,8 +73,8 @@
 | 🟩 EventEmitter        | 🟦 Blockeing operations        | ⬜ Completion ports | ⬜ Web Locks API      |
 | ⬜ Cancelable callback | 🟦 Non-blocking loop for Array | ⬜ Event ports      | ⬜ Async Pool         |
 | ⬜ Cancelable Promise  | ⬜ High resolution clock       | 🟦 libuv            | ⬜ Thread Pool        |
-| 🟦 Asynchronous Queue  | 🟩 Callback hell               | 🟦 Race conditions  | 🟦 callbackify        |
-| ⬜ Future              | 🟩 Promise hell                | 🟦 Dead locks       | 🟦 promisify          |
+| 🟩 Asynchronous Queue  | 🟩 Callback hell               | 🟦 Race conditions  | 🟩 callbackify        |
+| ⬜ Future              | 🟩 Promise hell                | 🟦 Dead locks       | 🟩 promisify          |
 | ⬜ Deferred            |                                | 🟦 Live locks       | ⬜ IPC                |
 | 🟦 Observer            |                                | ⬜ Actor Model      | ⬜ Channel API        |
 | ⬜ Async Collector     |                                |                     |                       |
@@ -85,17 +85,17 @@
 
 | Internals            | Theory                       | Network           | Technique        | Problems             |
 |----------------------|------------------------------|-------------------|------------------|----------------------|
-| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟦 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
-| 🟦 Event Loop        | 🟦 CPU bound tasks           | 🟦 TCP/SSL        | 🟦 Testing       | 🟦 Resource leaks    |
-| 🟦 commonjs          | 🟦 Memory bound tasks        | 🟦 UDP            | ⬜ CI/CD         | 🟦 Blocking code     |
-| 🟦 ECMA modules      | 🟦 Multilayer approach       | 🟦 TLS            | 🟦 Readable      | 🟦 Data race         |
-| 🟦 Network API       | 🟦 Separation of concerns    | 🟦 Websocket      | 🟦 Writable      | 🟦 Graceful Shutdown |
+| 🟦 Nonblocking I/O   | 🟦 I/O bound tasks           | 🟩 HTTP(S)        | 🟦 Logging       | 🟦 Memory leaks      |
+| 🟩 Event Loop        | 🟦 CPU bound tasks           | 🟩 TCP/SSL        | 🟦 Testing       | 🟦 Resource leaks    |
+| 🟩 commonjs          | 🟦 Memory bound tasks        | 🟩 UDP            | ⬜ CI/CD         | 🟦 Blocking code     |
+| 🟦 ECMA modules      | 🟦 Multilayer approach       | 🟩 TLS            | 🟦 Readable      | 🟦 Data race         |
+| 🟦 Network API       | 🟦 Separation of concerns    | 🟩 Websocket      | 🟦 Writable      | 🟦 Graceful Shutdown |
 | ⬜ Addons            | 🟦 Inversion of control      | ⬜ SSE            | 🟦 Transform     | 🟦 Dependencies      |
 | ⬜ N-API             | 🟦 Dependency injection      | ⬜ HTTP/3 (QUIC)  | ⬜ back pressure |                      |
 | ⬜ Webassembly       | 🟦 GRASP for JS and Node.js  | ⬜ Long polling   | 🟦 Buffer        |                      |
-| 🟦 npm               | 🟦 SOLID for JS and Node.js  | 🟦 REST           | 🟦 Console       |                      |
-| 🟦 node_modules      | 🟦 GoF for JS and Node.js    | 🟦 RPC            | 🟦 Inspector     |                      |
-| 🟦 package.json      | ⬜ Distributed systems       | 🟦 Routing        | 🟦 Reliability   |                      |
+| 🟩 npm               | 🟦 SOLID for JS and Node.js  | 🟦 REST           | 🟦 Console       |                      |
+| 🟩 node_modules      | 🟦 GoF for JS and Node.js    | 🟦 RPC            | 🟦 Inspector     |                      |
+| 🟩 package.json      | ⬜ Distributed systems       | 🟦 Routing        | 🟦 Reliability   |                      |
 | 🟦 vm isolation      | ⬜ Highload applications     | 🟦 IP sticky      | 🟦 Quality       |                      |
 | 🟦 command line args | 🟦 DDD                       | 🟦 DoS            | 🟦 Availability  |                      |
 | ⬜ Node.js CLI       | 🟦 Clean architecture        | 🟦 DDoS           | 🟦 Flexibility   |                      |
