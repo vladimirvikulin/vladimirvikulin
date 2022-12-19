@@ -2,10 +2,10 @@
 <code>⚪ Community: Metarhia</code>
 <code>👷 Speciality: Software engineer / Backend</code><br>
 <code>💡 [Skills](SKILLS.md)</code>
-<code>🧻 [Projects](https://github.com/vladimirvikulin/Car-Racing)</code>
+<code>🧻 [Projects](PROJECTS.md)</code>
 <code>📢 [Public talks: 0](TALKS.md)</code>
 <code>👀 [Open-source contribution](CONTRIBUTION.md)</code><br>
-<code>🧑‍💻 Languages: JavaScript, C, HTML, CSS</code>
+<code>🧑‍💻 Languages: JavaScript, C, C++, HTML, CSS</code>
 <code>📦 Tech stack: node.js</code>
 <code>🪙 [Rates](RATES.md)</code><br>
 <code>💬 telegram: [@vladlm1r](https://telegram.me/your-nikname)</code>
